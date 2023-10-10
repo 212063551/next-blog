@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+:root {
+	--global-color-white: #ffffff;
+	--header-bg-color: #ffffff;
+	--header-size-color: #000000;
+	--header-nav-active: #1890ff;
+
+	--technical-list-title: #252a33;
+	--technical-list-introduction: #6e7177;
+	--technical-list-border: 0 3px 12px rgba(0, 36, 153, 0.06);
+
+	--exercises-grade-bronze-color: #14a08b;
+	--exercises-grade-silver-color: #c9d3d3;
+	--exercises-grade-gold-color: #e97f07;
+	--exercises-grade-error-color: #ff000a;
+	--question-tag-size-color: #858d9a;
+}
+body {
+	background-color: #f4f4f4;
+}
